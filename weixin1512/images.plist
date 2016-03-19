@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imagepath</key>
+		<string>new_feature_1@2x.png</string>
+		<key>weburl</key>
+		<string>https://www.baidu.com</string>
+	</dict>
+	<dict>
+		<key>imagepath</key>
+		<string>new_feature_2@2x.png</string>
+		<key>weburl</key>
+		<string>https://www.baidu.com</string>
+	</dict>
+	<dict>
+		<key>imagepath</key>
+		<string>new_feature_3@2x.png</string>
+		<key>weburl</key>
+		<string>https://www.baidu.com</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QYTableHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odz-k7-3W7">
+                    <rect key="frame" x="0.0" y="0.0" width="344" height="100"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="625-6g-2RA">
+                            <rect key="frame" x="0.0" y="0.0" width="1032" height="100"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DJJ-6D-cNy">
+                                    <rect key="frame" x="0.0" y="0.0" width="344" height="100"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4ct-3e-d8E">
+                                    <rect key="frame" x="344" y="0.0" width="344" height="100"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7py-WE-qTF">
+                                    <rect key="frame" x="688" y="0.0" width="344" height="100"/>
+                                    <color key="backgroundColor" red="1" green="0.2532786474" blue="0.25777685230000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="4ct-3e-d8E" firstAttribute="centerX" secondItem="625-6g-2RA" secondAttribute="centerX" id="EZY-YU-bDs"/>
+                                <constraint firstItem="DJJ-6D-cNy" firstAttribute="centerX" secondItem="625-6g-2RA" secondAttribute="centerX" multiplier="1:3" id="GMN-Ns-bMc"/>
+                                <constraint firstItem="7py-WE-qTF" firstAttribute="centerY" secondItem="625-6g-2RA" secondAttribute="centerY" id="NdI-u9-O0i"/>
+                                <constraint firstItem="DJJ-6D-cNy" firstAttribute="centerY" secondItem="625-6g-2RA" secondAttribute="centerY" id="iKo-mO-60Z"/>
+                                <constraint firstItem="7py-WE-qTF" firstAttribute="centerX" secondItem="625-6g-2RA" secondAttribute="centerX" multiplier="5:3" id="idh-ze-unz"/>
+                                <constraint firstItem="4ct-3e-d8E" firstAttribute="centerY" secondItem="625-6g-2RA" secondAttribute="centerY" id="qas-Do-BAY"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="DJJ-6D-cNy" firstAttribute="width" secondItem="odz-k7-3W7" secondAttribute="width" id="34w-Ws-7c7"/>
+                        <constraint firstItem="4ct-3e-d8E" firstAttribute="height" secondItem="odz-k7-3W7" secondAttribute="height" id="7A9-9e-u31"/>
+                        <constraint firstAttribute="trailing" secondItem="625-6g-2RA" secondAttribute="trailing" id="7NY-u5-AnC"/>
+                        <constraint firstItem="4ct-3e-d8E" firstAttribute="width" secondItem="odz-k7-3W7" secondAttribute="width" id="82l-GP-PTZ"/>
+                        <constraint firstItem="7py-WE-qTF" firstAttribute="height" secondItem="odz-k7-3W7" secondAttribute="height" id="FPX-Bj-Yin"/>
+                        <constraint firstItem="625-6g-2RA" firstAttribute="top" secondItem="odz-k7-3W7" secondAttribute="top" id="FX2-KQ-XUT"/>
+                        <constraint firstItem="DJJ-6D-cNy" firstAttribute="height" secondItem="odz-k7-3W7" secondAttribute="height" id="KAn-oG-M3u"/>
+                        <constraint firstItem="625-6g-2RA" firstAttribute="leading" secondItem="odz-k7-3W7" secondAttribute="leading" id="Qv6-H1-lna"/>
+                        <constraint firstItem="7py-WE-qTF" firstAttribute="width" secondItem="odz-k7-3W7" secondAttribute="width" id="SgU-0c-jym"/>
+                        <constraint firstAttribute="bottom" secondItem="625-6g-2RA" secondAttribute="bottom" id="UMx-mq-Ohn"/>
+                        <constraint firstItem="625-6g-2RA" firstAttribute="width" secondItem="odz-k7-3W7" secondAttribute="width" multiplier="3" id="pl2-bB-yGA"/>
+                        <constraint firstItem="625-6g-2RA" firstAttribute="height" secondItem="odz-k7-3W7" secondAttribute="height" id="sRj-73-HEw"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="I54-Hr-zWC"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="M5f-bT-Qc2">
+                    <rect key="frame" x="152" y="59" width="39" height="37"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="M5f-bT-Qc2" secondAttribute="bottom" constant="4" id="Cuf-l7-Hau"/>
+                <constraint firstItem="M5f-bT-Qc2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="59" id="Q2F-K7-ngG"/>
+                <constraint firstItem="M5f-bT-Qc2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Yeg-3q-3KY"/>
+                <constraint firstItem="odz-k7-3W7" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="YrB-od-etu"/>
+                <constraint firstItem="odz-k7-3W7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="cdX-Uj-VNX"/>
+                <constraint firstItem="odz-k7-3W7" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="sES-e7-R1U"/>
+                <constraint firstAttribute="trailing" secondItem="M5f-bT-Qc2" secondAttribute="trailing" constant="8" id="uIn-dR-YIv"/>
+                <constraint firstItem="odz-k7-3W7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="uQC-SB-anl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="leftImageView" destination="DJJ-6D-cNy" id="Sgu-3d-lVu"/>
+                <outlet property="middleImageView" destination="4ct-3e-d8E" id="jKb-r4-Hgi"/>
+                <outlet property="pageControl" destination="M5f-bT-Qc2" id="ZcU-Mn-Ul8"/>
+                <outlet property="rightImageView" destination="7py-WE-qTF" id="Kna-Hc-PNL"/>
+                <outlet property="scrollView" destination="odz-k7-3W7" id="5oL-v4-CRb"/>
+            </connections>
+            <point key="canvasLocation" x="259" y="90"/>
+        </view>
+    </objects>
+</document>
